@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main>
+    <div id="mollahSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mollahSlider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#mollahSlider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mollahSlider" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/image (1).jpg" class="d-block w-100 slider-img" alt="Nasir Glass">
+                <div class="carousel-caption text-start custom-caption">
+                    <h2 class="fw-bold display-6">Premium Nasir Glass</h2>
+                    <p class="lead">Exquisite clarity and strength for your home.</p>
+                    <a href="#" class="btn btn-warning fw-bold px-4 shadow-sm">Explore</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/images/image.jpg" class="d-block w-100 slider-img" alt="RFL Tiles">
+                <div class="carousel-caption text-start custom-caption">
+                    <h2 class="fw-bold display-6">RFL Roof Tiles</h2>
+                    <p class="lead">Modern roofing solutions for durability.</p>
+                    <a href="#" class="btn btn-warning fw-bold px-4 shadow-sm">View Designs</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/images/image (2).jpg" class="d-block w-100 slider-img" alt="Super Board">
+                <div class="carousel-caption text-start custom-caption">
+                    <h2 class="fw-bold display-6">Super Board Appliances</h2>
+                    <p class="lead">Elegant home furniture for your interior.</p>
+                    <a href="#" class="btn btn-warning fw-bold px-4 shadow-sm">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#mollahSlider" data-bs-slide="prev">
+            <span class="control-circle "><i class="fa fa-chevron-left"></i></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mollahSlider" data-bs-slide="next">
+            <span class="control-circle"><i class="fa fa-chevron-right"></i></span>
+        </button>
+    </div>
+    
+    <section class="customer-reviews py-5" style="background-color: #003366; margin-top: 50px;">
+        <div class="container">
+            <div class="text-center mb-5 mt-4">
+                <h2 class="fw-bold text-white">What Our Customers Say</h2>
+                <div class="mx-auto" style="width: 70px; height: 4px; background-color: #ffcc00; border-radius: 2px;"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow pt-4 px-3 pb-3 text-center position-relative mt-5" style="border-radius: 15px;">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <img src="~/images/gystfycj.lvl.png" class="rounded-circle border border-4 border-warning shadow"
+                                 style="width: 90px; height: 90px; object-fit: cover; background-color: white;" alt="Customer 1">
+                        </div>
+                        <div class="card-body mt-4">
+                            <div class="text-warning mb-2">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <h5 class="fw-bold mb-1">Md. Atikur Rahman</h5>
+                            <p class="text-muted small mb-3">Pabna Sadar</p>
+                            <p class="card-text text-secondary italic" style="font-size: 0.95rem; line-height: 1.6;">
+                                "The Nasir Glass quality is outstanding. Mollah Thai Glass provided excellent service and fast delivery for my home project."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow pt-4 px-3 pb-3 text-center position-relative mt-5" style="border-radius: 15px;">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <img src="~/images/stock-photo-confident-middle-aged-business-man-manager-entrepreneur-mature-professional-executive-businessman-2516789501.jpg" class="rounded-circle border border-4 border-warning shadow"
+                                 style="width: 90px; height: 90px; object-fit: cover; background-color: white;" alt="Customer 2">
+                        </div>
+                        <div class="card-body mt-4">
+                            <div class="text-warning mb-2">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i>
+                            </div>
+                            <h5 class="fw-bold mb-1">Fardin chowdory</h5>
+                            <p class="text-muted small mb-3">Ishwardi</p>
+                            <p class="card-text text-secondary italic" style="font-size: 0.95rem; line-height: 1.6;">
+                                "I am very happy with the RFL roof tiles and the Super Board reading table. They are durable and look very modern."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow pt-4 px-3 pb-3 text-center position-relative mt-5" style="border-radius: 15px;">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <img src="~/images/639102774646673110.jpg" class="rounded-circle border border-4 border-warning shadow"
+                                 style="width: 90px; height: 90px; object-fit: cover; background-color: white;" alt="Customer 3">
+                        </div>
+                        <div class="card-body mt-4">
+                            <div class="text-warning mb-2">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <h5 class="fw-bold mb-1">Nilima Sultana</h5>
+                            <p class="text-muted small mb-3">Bhangura</p>
+                            <p class="card-text text-secondary italic" style="font-size: 0.95rem; line-height: 1.6;">
+                                "Best Thai Glass house in the region. Their professionalism and attention to detail during installation is top-notch."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

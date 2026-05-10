@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\views\\shared\\components\\productmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\views\\shared\\components\\productmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\viewcomponents\\productmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\viewcomponents\\productmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\models\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\models\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\views\\shared\\_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\views\\shared\\_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\views\\customers\\_addnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\views\\customers\\_addnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|d:\\.netdeveloper my practise\\asp.net core practise\\1294236\\asp.net_core_codefirst\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F54F358-ADEB-E944-027E-D8FBF2A5D1B6}|ASP.NET_CORE_CodeFirst\\ASP.NET_CORE_CodeFirst.csproj|solutionrelative:asp.net_core_codefirst\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:06:01.066Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:05:42.782Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:05:16.794Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Program.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Program.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Program.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:57:48.106Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:09:06.797Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientVM.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Models\\ViewModel\\ClientVM.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Models\\ViewModel\\ClientVM.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Models\\ViewModel\\ClientVM.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Models\\ViewModel\\ClientVM.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:09:45.217Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Models\\DataModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Models\\DataModel.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Models\\DataModel.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Models\\DataModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:10:32.942Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\ViewComponents\\ProductMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\ViewComponents\\ProductMenuViewComponent.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\ViewComponents\\ProductMenuViewComponent.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\ViewComponents\\ProductMenuViewComponent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:11:05.239Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_addNewProduct.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Customers\\_addNewProduct.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Views\\Customers\\_addNewProduct.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Customers\\_addNewProduct.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Views\\Customers\\_addNewProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:11:16.508Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\Components\\ProductMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\Components\\ProductMenu\\Default.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\Components\\ProductMenu\\Default.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\Components\\ProductMenu\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:11:47.846Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_success.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\_success.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\_success.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\_success.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\_success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:12:07.448Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Data\\ApplicationUser.cs",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:15:49.935Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:18:30.852Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NETdeveloper My Practise\\ASP.NET CORE Practise\\1294236\\ASP.NET_CORE_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP.NET_CORE_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T10:25:27.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

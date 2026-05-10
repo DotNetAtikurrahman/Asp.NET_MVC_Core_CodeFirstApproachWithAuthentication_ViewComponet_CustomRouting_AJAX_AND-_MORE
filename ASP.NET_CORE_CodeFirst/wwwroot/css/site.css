@@ -1,0 +1,249 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+  /* FOR LAYOUT PAGE */
+
+
+
+.main-nav {
+    background-color: #002d5a; /* Deep professional blue */
+    border-bottom: 3px solid #ffc107; /* Gold accent */
+    padding: 0.6rem 0;
+    transition: all 0.3s ease;
+}
+
+.nav-logo {
+    height: 48px;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.brand-main {
+    display: block;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.brand-sub {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffc107;
+    letter-spacing: 1px;
+}
+
+
+.custom-link {
+    color: rgba(255,255,255,0.85) !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem !important;
+    margin: 0 2px;
+    border-radius: 50px;
+    transition: all 0.25s ease;
+}
+
+    .custom-link i {
+        opacity: 0.7;
+        font-size: 0.85rem;
+    }
+
+    .custom-link:hover {
+        color: #ffffff !important;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+
+    .custom-link.active {
+        background-color: #ffc107 !important;
+        color: #002d5a !important;
+    }
+
+        .custom-link.active i {
+            opacity: 1;
+        }
+
+
+.auth-section {
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+
+@@media (max-width: 991px) {
+    .auth-section {
+        border-top: 1px solid rgba(255,255,255,0.1);
+        padding-top: 1rem;
+        margin-top: 0.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+}
+
+
+
+.login-links a {
+    color: white !important;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.login-links button {
+    color: white !important;
+    font-weight: bold;
+}
+
+
+
+/* Fix for the "Blur/Backdrop" issue */
+.modal {
+    z-index: 2000 !important; /* Forces modal to front */
+}
+
+.modal-backdrop {
+    z-index: 1900 !important; /* Keeps backdrop behind modal but above nav */
+}
+
+/* Modern Input Styling */
+.form-control:focus {
+    background-color: #fff !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    border: 1px solid #0d6efd !important;
+}
+
+.modal-content {
+    animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Fix for the blank white dropdown box */
+.dropdown-menu {
+    background-color: #ffffff !important;
+    min-width: 180px;
+    z-index: 9999; /* Ensures it stays above other elements */
+    padding: 0.5rem 0;
+}
+
+/* Ensure dropdown text is dark so it's readable on white background */
+.dropdown-item {
+    color: #333 !important;
+    font-weight: 500;
+}
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa !important;
+        color: #003366 !important; /* Your brand blue */
+    }
+
+/* Remove any default "blur" filters that might be stuck */
+.navbar-nav .dropdown-menu {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+
+/* customer create page style*/
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.form-card {
+    border: none;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Floating-like effect for inputs */
+.form-control-modern {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 10px 15px;
+    transition: all 0.2s;
+}
+
+    .form-control-modern:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+        background-color: #fff;
+    }
+
+.input-group-text {
+    background-color: #f1f3f5;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #dee2e6;
+    color: #6c757d;
+    width: 45px;
+    justify-content: center;
+}
+
+.input-group > .form-control-modern {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .section-title i {
+        margin-right: 12px;
+        color: #0d6efd;
+    }
+
+/* Custom Checkbox */
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+

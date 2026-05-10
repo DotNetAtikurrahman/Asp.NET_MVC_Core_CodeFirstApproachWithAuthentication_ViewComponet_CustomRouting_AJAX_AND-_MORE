@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ASP.NET_CORE_CodeFirst</title>
+    <script type="importmap"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    
+   
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ASP.NET_CORE_CodeFirst.styles.css" asp-append-version="true" />
+  
+   
+
+    <script>
+            
+          function LoadData(id) {
+                $.ajax({
+                    url: "/Customers/AddNewProduct/" + id,
+                    type: "GET",
+                    success: function (data) {
+                        $("#productContainer").append(data);
+                    }
+                });
+            }
+
+            $(document).on("click","#btnPlus",function(e){
+                e.preventDefault();
+                LoadData();
+            });
+            $(document).on("click","#btnDelete",function(e){
+                e.preventDefault();
+                $(this).parent().parent().remove();
+            });
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #003366; border-bottom: 3px solid #ffcc00;">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="@Url.Action("Index", "Home")">
+                <img src="~/images/logo.png" alt="Logo" style="height: 50px; width: auto;" class="me-2" />
+                <div class="d-none d-lg-block">
+                    <span class="fw-bold">MOLLAH</span><br />
+                    <small style="color: #ffcc00;">Thai Glass House</small>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Products" asp-action="Index">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Customers" asp-action="Index">Customers</a>
+                    </li>
+                
+                    @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+                         {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-controller="Role" asp-action="AssignRole">Assign Role</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-controller="Role" asp-action="Index">Role</a>
+                            </li>
+                                
+                            }
+                            
+                        
+                    
+                </ul>
+
+                <div class="navbar-nav ms-auto login-links">
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+
+    <footer class="mt-5 py-4 text-white" style="background-color: #1a1a1a;">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fa fa-truck me-2"></i>Delivery</h5>
+                    <p>Safe delivery within 24-48 hours across Pabna </p>
+                </div>
+                <div class="col-md-4 border-start border-end">
+                    <h5><i class="fa fa-phone me-2"></i>Contact</h5>
+                    <p>Call: +880 1321335573<br />Email: info@mollahglass.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <i class="fa fa-facebook fa-2x mx-2"></i>
+                    <i class="fa fa-whatsapp fa-2x mx-2"></i>
+                    <i class="fa fa-youtube fa-2x mx-2"></i>
+
+                </div>
+            </div>
+            <hr />
+            <p>&copy; @DateTime.Now.Year - Mollah Thai Glass House | Crafted by Atikur</p>
+        </div>
+    </footer>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 1.5rem;">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-0">
+                    <div class="text-center mb-4">
+                        <h3 class="fw-bold">Welcome Back</h3>
+                        <p class="text-muted small">Enter your details to sign in</p>
+                    </div>
+
+                    <form method="post" asp-area="Identity" asp-page="/Account/Login">
+                        <div class="form-floating mb-3">
+                            <input type="email" name="Input.Email" class="form-control bg-light border-0" id="emailInput" placeholder="name@example.com" required>
+                            <label for="emailInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="password" name="Input.Password" class="form-control bg-light border-0" id="passInput" placeholder="Password" required>
+                            <label for="passInput">Password</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill fw-bold shadow">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+ 
+    
+</body>
+</html>

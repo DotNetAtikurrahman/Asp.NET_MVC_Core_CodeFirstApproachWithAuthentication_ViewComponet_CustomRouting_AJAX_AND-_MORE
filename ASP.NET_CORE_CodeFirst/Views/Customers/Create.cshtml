@@ -1,0 +1,141 @@
+﻿@model ClientVM
+@{
+    ViewData["Title"] = "Create Customer";
+}
+
+
+
+<div class="container py-5">
+    <form id="frmCreate"
+          asp-action="Create"
+          asp-controller="Customers"
+          data-ajax-method="post"
+          data-ajax-mode="replace"
+          data-ajax-update="#panel"
+          data-ajax-success="success"
+          data-ajax="true" enctype="multipart/form-data">
+
+        <div id="panel" class="mb-3"></div>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card form-card shadow-sm p-4">
+                    <h4 class="section-title">
+                        <i class="fa fa-user-circle"></i> Customer Details
+                    </h4>
+
+                    <div class="mb-3">
+                        <label asp-for="CustomerName" class="form-label small fw-bold text-muted text-uppercase"></label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            <input asp-for="CustomerName" class="form-control form-control-modern" placeholder="Enter full name" />
+                        </div>
+                        <span asp-validation-for="CustomerName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Phone" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-phone"></i></span>
+                                <input asp-for="Phone" class="form-control form-control-modern" placeholder="01XXX-XXXXXX" />
+                            </div>
+                            <span asp-validation-for="Phone" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="PurchaseDate" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                <input asp-for="PurchaseDate" class="form-control form-control-modern" type="date" />
+                            </div>
+                            <span asp-validation-for="PurchaseDate" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Address" class="form-label small fw-bold text-muted text-uppercase"></label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-map-marker"></i></span>
+                            <input asp-for="Address" class="form-control form-control-modern" placeholder="Street address, City" />
+                        </div>
+                        <span asp-validation-for="Address" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PictureFile" class="form-label small fw-bold text-muted text-uppercase"></label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-image"></i></span>
+                            <input asp-for="PictureFile" class="form-control form-control-modern" type="file" />
+                        </div>
+                        <span asp-validation-for="PictureFile" class="text-danger small"></span>
+                    </div>
+
+                    <hr class="my-4 text-muted opacity-25">
+
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <label asp-for="TotalBill" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-money"></i></span>
+                                <input asp-for="TotalBill" class="form-control form-control-modern fw-bold text-primary" type="number" step="0.01" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <div class="form-check form-switch p-3 bg-light rounded-3 border">
+                                <input asp-for="IsPaid" class="form-check-input ms-0 me-2" type="checkbox" role="switch" id="paidSwitch">
+                                <label class="form-check-label fw-bold text-dark" for="paidSwitch">Full Payment Received?</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <button type="submit" class="btn btn-primary w-100 py-2 rounded-pill shadow-sm fw-bold">
+                            <i class="fa fa-save me-2"></i> Confirm & Save Customer
+                        </button>
+                        <a asp-action="Index" class="btn btn-link w-100 mt-2 text-decoration-none text-muted small">Cancel & Go Back</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                
+                <div class="card form-card shadow-sm p-4 h-100">
+                    @await Component.InvokeAsync("ProductMenu", new { max = 8 })
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="section-title mb-0">
+                            <i class="fa fa-shopping-basket"></i> Product Items
+                        </h4>
+                        <button type="button" class="btn btn-outline-primary btn-sm rounded-circle" id="btnPlus" style="width: 35px; height: 35px;">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+
+                    <div id="productContainer" class="rounded-3 border bg-white p-2">
+                        <script>
+
+                                                    LoadData();
+                        </script>
+                    </div>
+                    
+                    <div class="mt-4 p-3 bg-primary bg-opacity-10 rounded-3 border border-primary border-opacity-25">
+                        <p class="small text-primary m-0">
+                            <i class="fa fa-info-circle me-2"></i> Use the <b>+</b> button to add multiple products to this customer's transaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/ajax/dist/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function success(){
+        $("#frmCreate").trigger('reset')
+        }
+    </script>
+
+}

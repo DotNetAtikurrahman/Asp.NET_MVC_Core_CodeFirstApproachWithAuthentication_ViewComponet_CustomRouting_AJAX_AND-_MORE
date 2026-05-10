@@ -1,0 +1,322 @@
+﻿
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+ 
+  
+  
+    <style>
+            /* Modern CSS Variables */
+            :root {
+                --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+                --secondary-gradient: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);
+                --dark-bg: #0f172a;
+                --card-bg: rgba(255, 255, 255, 0.98);
+                --border-radius: 1.5rem;
+                --input-radius: 1rem;
+                --shadow-sm: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+                --shadow-md: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+                --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+
+            /* Beautiful Background with animated gradient */
+            body {
+                background: linear-gradient(145deg, #f8fafc 0%, #eef2ff 100%);
+                font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+                min-height: 100vh;
+                position: relative;
+                overflow-x: hidden;
+            }
+
+                /* Decorative blobs */
+                body::before {
+                    content: '';
+                    position: fixed;
+                    top: -20%;
+                    left: -10%;
+                    width: 500px;
+                    height: 500px;
+                    background: radial-gradient(circle, rgba(99,102,241,0.15) 0%, rgba(139,92,246,0) 70%);
+                    border-radius: 50%;
+                    z-index: 0;
+                    pointer-events: none;
+                }
+
+                body::after {
+                    content: '';
+                    position: fixed;
+                    bottom: -10%;
+                    right: -5%;
+                    width: 600px;
+                    height: 600px;
+                    background: radial-gradient(circle, rgba(45,212,191,0.12) 0%, rgba(59,130,246,0) 70%);
+                    border-radius: 50%;
+                    z-index: 0;
+                    pointer-events: none;
+                }
+
+            /* Main container */
+            .register-container {
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1.5rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* Modern Card Design */
+            .register-card {
+                max-width: 520px;
+                width: 100%;
+                background: var(--card-bg);
+                backdrop-filter: blur(0px);
+                border-radius: var(--border-radius);
+                box-shadow: var(--shadow-lg);
+                overflow: hidden;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+
+                .register-card:hover {
+                    transform: translateY(-4px);
+                    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.2);
+                }
+
+            /* Header Section */
+            .card-header-custom {
+                background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+                padding: 2rem 2rem 1.5rem;
+                text-align: center;
+                color: white;
+                position: relative;
+            }
+
+                .card-header-custom::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 4px;
+                    background: var(--primary-gradient);
+                }
+
+                .card-header-custom h2 {
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;
+                    letter-spacing: -0.02em;
+                }
+
+                .card-header-custom p {
+                    color: #cbd5e1;
+                    font-size: 0.9rem;
+                    margin-bottom: 0;
+                }
+
+            /* Form Body */
+            .card-body-custom {
+                padding: 2rem 2rem 2rem;
+            }
+
+            /* Floating Label Enhancements */
+            .form-floating {
+                margin-bottom: 1.5rem !important;
+            }
+
+                .form-floating input {
+                    border-radius: var(--input-radius) !important;
+                    border: 1.5px solid #e2e8f0;
+                    background: white;
+                    transition: all 0.2s ease;
+                    font-size: 0.95rem;
+                    padding: 1rem 0.75rem;
+                    height: auto;
+                }
+
+                    .form-floating input:focus {
+                        border-color: #8b5cf6;
+                        box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.1);
+                        outline: none;
+                    }
+
+                .form-floating label {
+                    padding: 1rem 0.75rem;
+                    color: #64748b;
+                    font-weight: 500;
+                }
+
+            /* Validation styling */
+            .text-danger {
+                font-size: 0.75rem;
+                margin-top: 0.25rem;
+                display: block;
+                font-weight: 500;
+                letter-spacing: -0.2px;
+            }
+
+            .validation-summary-errors {
+                background: #fef2f2;
+                border-left: 4px solid #ef4444;
+                padding: 0.75rem 1rem;
+                border-radius: 0.75rem;
+                margin-bottom: 1.5rem;
+            }
+
+            /* Modern Button */
+            .btn-register {
+                background: var(--primary-gradient);
+                border: none;
+                padding: 0.85rem;
+                font-size: 1rem;
+                font-weight: 600;
+                border-radius: 2rem;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+                letter-spacing: 0.3px;
+                margin-top: 0.5rem;
+            }
+
+                .btn-register:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+                    filter: brightness(1.02);
+                }
+
+                .btn-register:active {
+                    transform: translateY(0);
+                }
+
+            /* Login Link Section */
+            .login-redirect {
+                text-align: center;
+                margin-top: 1.8rem;
+                padding-top: 0.5rem;
+                border-top: 1px solid #eef2ff;
+            }
+
+                .login-redirect a {
+                    color: #6366f1;
+                    text-decoration: none;
+                    font-weight: 600;
+                    transition: color 0.2s;
+                }
+
+                    .login-redirect a:hover {
+                        color: #4f46e5;
+                        text-decoration: underline;
+                    }
+
+            /* Responsive adjustments */
+            @@media (max-width: 576px) {
+                .card-body-custom {
+                    padding: 1.5rem;
+                }
+
+                .card-header-custom {
+                    padding: 1.5rem;
+                }
+
+                    .card-header-custom h2 {
+                        font-size: 1.5rem;
+                    }
+
+                .register-container {
+                    padding: 1rem;
+                }
+            }
+
+            /* Subtle focus animations */
+            .form-floating input:not(:placeholder-shown) {
+                border-color: #cbd5e1;
+            }
+
+            /* Custom scrollbar */
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: #c7d2fe;
+                border-radius: 10px;
+            }
+
+            /* Additional styling for icons concept (using utf8 subtle) */
+            .form-floating .form-control {
+                background-color: #ffffff;
+            }
+    </style>
+    <!-- Google Fonts Inter for clean modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+
+
+    <div class="register-container">
+        <div class="register-card">
+            <div class="card-header-custom">
+                <h2> Join Us Today</h2>
+                <p>Create your account and start your journey</p>
+            </div>
+            <div class="card-body-custom">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger validation-summary-errors" role="alert"></div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="atikurrahman" />
+                        <label asp-for="Input.Name">👤 Full Name</label>
+                        <span asp-validation-for="Input.Name" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.CellPhoneNo" class="form-control" autocomplete="CellPhoneNo" aria-required="true" placeholder="017xxxxxxxx" />
+                        <label asp-for="Input.CellPhoneNo">📱 Cell Phone No</label>
+                        <span asp-validation-for="Input.CellPhoneNo" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Location" class="form-control" autocomplete="Location" aria-required="true" placeholder="pabna" />
+                        <label asp-for="Input.Location">📍 Location</label>
+                        <span asp-validation-for="Input.Location" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="Email" aria-required="true" placeholder="atikur@gmail.com" />
+                        <label asp-for="Input.Email">✉️ Email Address</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                        <label asp-for="Input.Password">🔒 Password</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                        <label asp-for="Input.ConfirmPassword">🔐 Confirm Password</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary btn-register">🚀 Register Now</button>
+                    
+                    <div class="login-redirect">
+                        <span style="color: #475569;">Already have an account? </span>
+                        <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Sign in here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }

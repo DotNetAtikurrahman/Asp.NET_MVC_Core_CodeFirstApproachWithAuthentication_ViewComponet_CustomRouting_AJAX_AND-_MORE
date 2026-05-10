@@ -1,0 +1,169 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Images\2viufvgq.aod.jpg
+wwwroot\Images\54ulwejj.4lj.jpg
+wwwroot\Images\639102326734494800.jpg
+wwwroot\Images\639102451619965308.jpg
+wwwroot\Images\639102774646673110.jpg
+wwwroot\Images\639105838204058028.jpg
+wwwroot\Images\639117051924858132.png
+wwwroot\Images\gystfycj.lvl.png
+wwwroot\Images\ho42atfy.1yq.jpg
+wwwroot\Images\image (1).jpg
+wwwroot\Images\image (2).jpg
+wwwroot\Images\image (3).jpg
+wwwroot\Images\image.jpg
+wwwroot\Images\kcjhmy2l.ddt.jpg
+wwwroot\Images\logo.png
+wwwroot\Images\loorjxtw.hk1.jpg
+wwwroot\Images\stock-photo-confident-middle-aged-business-man-manager-entrepreneur-mature-professional-executive-businessman-2516789501.jpg
+wwwroot\Images\wxbyxd5h.clo.png
+wwwroot\js\site.js
+wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.js
+wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.min.js
+wwwroot\lib\ajax\LICENSE.txt
+wwwroot\lib\ajax\package-lock.json
+wwwroot\lib\ajax\package.json
+wwwroot\lib\ajax\README.md
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\font-awesome\css\font-awesome.css
+wwwroot\lib\font-awesome\css\font-awesome.css.map
+wwwroot\lib\font-awesome\css\font-awesome.min.css
+wwwroot\lib\font-awesome\fonts\fontawesome-webfont.eot
+wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg
+wwwroot\lib\font-awesome\fonts\fontawesome-webfont.ttf
+wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff
+wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2
+wwwroot\lib\font-awesome\fonts\FontAwesome.otf
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\css\site.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\favicon.ico
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\js\site.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery-validation\LICENSE.md
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.min.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\jquery\LICENSE.txt
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\font-awesome\css\font-awesome.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\font-awesome\css\font-awesome.css.map
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\font-awesome\css\font-awesome.min.css
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\font-awesome\fonts\FontAwesome.otf
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.min.js
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\LICENSE.txt
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\package.json
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\README.md
+D:\.NETdeveloper My Practise\ASP.NET CORE Practise\1294236\ASP.NET_CORE_CodeFirst\wwwroot\lib\ajax\package-lock.json

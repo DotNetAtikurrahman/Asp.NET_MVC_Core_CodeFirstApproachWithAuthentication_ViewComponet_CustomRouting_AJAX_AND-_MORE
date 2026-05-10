@@ -1,0 +1,210 @@
+﻿@model ClientVM
+@{
+    ViewData["Title"] = "Edit Customer";
+}
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    
+    .form-card {
+        border: none;
+        border-radius: 15px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .form-control-modern {
+        border-radius: 8px;
+        border: 1px solid #dee2e6;
+        padding: 10px 15px;
+        transition: all 0.2s;
+    }
+
+        .form-control-modern:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+            background-color: #fff;
+        }
+
+    .input-group-text {
+        background-color: #f1f3f5;
+        border-radius: 8px 0 0 8px;
+        border: 1px solid #dee2e6;
+        color: #6c757d;
+        width: 45px;
+        justify-content: center;
+    }
+
+    .input-group > .form-control-modern {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .section-title {
+        font-weight: 600;
+        color: #212529;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+        .section-title i {
+            margin-right: 12px;
+            color: #198754;
+        }
+    /* Green for Edit */
+
+    .edit-image-preview {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 12px;
+        border: 3px solid #fff;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+</style>
+
+<div class="container py-5">
+    <form id="frmEdit"
+          asp-action="Edit"
+          asp-controller="Customers"
+          data-ajax-method="post"
+          data-ajax-mode="replace"
+          data-ajax-update="#panel"
+          data-ajax-success="success"
+          data-ajax="true" enctype="multipart/form-data">
+
+        <input type="hidden" asp-for="CustomerId" />
+        <input type="hidden" asp-for="Picture" />
+
+        <div id="panel" class="mb-3"></div>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card form-card shadow-sm p-4">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h4 class="section-title">
+                            <i class="fa fa-pencil-square-o"></i> Update Customer
+                        </h4>
+                        <img src="@Model.Picture" class="edit-image-preview" alt="Current Picture" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="CustomerName" class="form-label small fw-bold text-muted text-uppercase"></label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            <input asp-for="CustomerName" class="form-control form-control-modern" />
+                        </div>
+                        <span asp-validation-for="CustomerName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Phone" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-phone"></i></span>
+                                <input asp-for="Phone" class="form-control form-control-modern" />
+                            </div>
+                            <span asp-validation-for="Phone" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="PurchaseDate" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                <input asp-for="PurchaseDate" class="form-control form-control-modern" type="date" />
+                            </div>
+                            <span asp-validation-for="PurchaseDate" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Address" class="form-label small fw-bold text-muted text-uppercase"></label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-map-marker"></i></span>
+                            <input asp-for="Address" class="form-control form-control-modern" />
+                        </div>
+                        <span asp-validation-for="Address" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PictureFile" class="form-label small fw-bold text-muted text-uppercase">Change Photo (Optional)</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-upload"></i></span>
+                            <input asp-for="PictureFile" class="form-control form-control-modern" type="file" />
+                        </div>
+                        <span asp-validation-for="PictureFile" class="text-danger small"></span>
+                    </div>
+
+                    <hr class="my-4 text-muted opacity-25">
+
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <label asp-for="TotalBill" class="form-label small fw-bold text-muted text-uppercase"></label>
+                            <div class="input-group">
+                                <span class="input-group-text text-success"><i class="fa fa-money"></i></span>
+                                <input asp-for="TotalBill" class="form-control form-control-modern fw-bold" type="number" step="0.01" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <div class="form-check form-switch p-3 bg-light rounded-3 border shadow-xs">
+                                <input asp-for="IsPaid" class="form-check-input ms-0 me-2" type="checkbox" role="switch" id="paidSwitch">
+                                <label class="form-check-label fw-bold text-dark" for="paidSwitch">Payment Completed</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <button type="submit" class="btn btn-success w-100 py-2 rounded-pill shadow-sm fw-bold">
+                            <i class="fa fa-refresh me-2"></i> Update Customer Records
+                        </button>
+                        <a asp-action="Index" class="btn btn-link w-100 mt-2 text-decoration-none text-muted small">Discard Changes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card form-card shadow-sm p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="section-title mb-0">
+                            <i class="fa fa-list-ul"></i> Product Items
+                        </h4>
+                        <button type="button" class="btn btn-outline-success btn-sm rounded-circle shadow-sm" id="btnPlus" style="width: 35px; height: 35px;">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+
+                    <div id="productContainer" class="rounded-4 border bg-white p-1">
+                        @foreach (var item in Model.ProductList)
+                        {
+                            <script>
+                                                        LoadData(@item)
+                            </script>
+                        }
+                    </div>
+                    
+                    <div class="mt-4 p-3 bg-success bg-opacity-10 rounded-3 border border-success border-opacity-10">
+                        <p class="small text-success m-0">
+                            <i class="fa fa-info-circle me-2"></i> You are currently editing transaction details. Use the plus button to add new items or the delete button within the list to remove them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/ajax/dist/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function success(){
+        $("#frmEdit").trigger('reset')
+        }
+    </script>
+      
+}
+
+   

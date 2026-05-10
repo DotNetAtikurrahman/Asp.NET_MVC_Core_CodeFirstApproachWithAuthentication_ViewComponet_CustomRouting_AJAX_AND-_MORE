@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Assign Role";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-header bg-dark text-white py-3">
+                    <h3 class="card-title mb-0 fs-4">
+                        <i class="bi bi-person-badge me-2"></i>Assign Role To User
+                    </h3>
+                </div>
+                
+                <div class="card-body p-4">
+                    @if (TempData["msg"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="bi bi-check-circle-fill me-2"></i> @TempData["msg"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <form asp-action="AssignRole" asp-controller="Role" method="post">
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-secondary">Select User</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-envelope"></i></span>
+                                <select name="userData" class="form-select border-start-0" required>
+                                    <option value="" disabled selected>-- Choose User Account --</option>
+                                    @foreach (var item in ViewBag.users)
+                                    {
+                                        <option value="@item.Email">@item.Email</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-secondary">Assign Authority/Role</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-shield-lock"></i></span>
+                                <select name="roleData" class="form-select border-start-0" required>
+                                    <option value="" disabled selected>-- Select System Role --</option>
+                                    @foreach (var item in ViewBag.roles)
+                                    {
+                                        <option value="@item.NormalizedName">@item.NormalizedName</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        <hr class="text-muted opacity-25">
+
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <a asp-action="Index" class="btn btn-link text-decoration-none text-muted">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                            <button class="btn btn-primary px-4 shadow-sm" type="submit">
+                                <i class="bi bi-person-plus-fill me-2"></i> Assign Role
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
